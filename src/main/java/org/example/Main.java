@@ -56,7 +56,7 @@ public static ReentrantLock bufferLock = new ReentrantLock( true);
 
         for (Integer num : integerCountMap.keySet()) {
             int count = integerCountMap.get(num);
-            System.out.println(ANSI_RED+num +ANSI_BLUE + " occurs "+ANSI_RED + count + ANSI_BLUE+" times.");
+            System.out.println(ANSI_RED+num +ANSI_BLUE + " occurs = "+ANSI_RED + count + ANSI_BLUE+" times.");
         }
 
         System.out.println("--------------------------------------------");
