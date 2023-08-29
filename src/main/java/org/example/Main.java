@@ -44,7 +44,7 @@ public static ReentrantLock bufferLock = new ReentrantLock( true);
 
         System.out.println("------------------------------------------------------------");
         System.out.println(ANSI_BLUE + "Done getting all the numbers");
-        System.out.println("There are : "+ ANSI_RED+ numbersCollection.size() + ANSI_CYAN + " numbers in the list.");
+        System.out.println("There are : "+ ANSI_RED + numbersCollection.size() + ANSI_CYAN + " numbers in the list.");
 
         System.out.println("------------------------------------------------------------");
 
